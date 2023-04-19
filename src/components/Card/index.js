@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = (pokemon) => {
+const Card = ({ pokemon }) => {
   return (
     <div id={pokemon.id}>
       <img src={pokemon.sprites.front_default} alt={pokemon.name} />
